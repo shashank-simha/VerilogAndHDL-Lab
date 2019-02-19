@@ -1,0 +1,28 @@
+Command line:
+   lgate_behavioural_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  57561
+
+Tue Jan 29 15:19:58 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5335.57 Meg
+
+ Total Signals          : 15
+ Total Nets             : 22
+ Total Signal Drivers   : 12
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 14
+ Total Traceable Variables  : 25
+ Total Scalar Nets and Variables : 109
+
+ Total Simulation Time: 0.0625 sec
+
+ Current Memory Usage: 5178.28 Meg
+
+Tue Jan 29 15:22:26 2019
+

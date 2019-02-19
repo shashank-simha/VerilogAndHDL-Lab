@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/ShashankShivv/logic_gates/lgate_dataflow.xst" -ofn "C:/Users/Student/Desktop/ShashankShivv/logic_gates/lgate_dataflow.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/ShashankShivv/logic_gates/lgate_dataflow.xst" -ofn "C:/Users/Student/Desktop/ShashankShivv/logic_gates/lgate_dataflow.syr" 
