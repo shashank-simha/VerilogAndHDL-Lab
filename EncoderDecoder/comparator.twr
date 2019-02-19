@@ -1,0 +1,100 @@
+--------------------------------------------------------------------------------
+Release 14.7 Trace  (nt64)
+Copyright (c) 1995-2013 Xilinx, Inc.  All rights reserved.
+
+C:\Xilinx\14.7\ISE_DS\ISE\bin\nt64\unwrapped\trce.exe -intstyle ise -v 3 -s 1
+-n 3 -fastpaths -xml comparator.twx comparator.ncd -o comparator.twr
+comparator.pcf
+
+Design file:              comparator.ncd
+Physical constraint file: comparator.pcf
+Device,package,speed:     xc7a100t,csg324,C,-1 (PRODUCTION 1.10 2013-10-13)
+Report level:             verbose report
+
+Environment Variable      Effect 
+--------------------      ------ 
+NONE                      No environment variables were set
+--------------------------------------------------------------------------------
+
+INFO:Timing:2698 - No timing constraints found, doing default enumeration.
+INFO:Timing:3412 - To improve timing, see the Timing Closure User Guide (UG612).
+INFO:Timing:2752 - To get complete path coverage, use the unconstrained paths 
+   option. All paths that are not constrained will be reported in the 
+   unconstrained paths section(s) of the report.
+INFO:Timing:3339 - The clock-to-out numbers in this timing report are based on 
+   a 50 Ohm transmission line loading model.  For the details of this model, 
+   and for more information on accounting for different loading conditions, 
+   please see the device datasheet.
+
+
+
+Data Sheet report:
+-----------------
+All values displayed in nanoseconds (ns)
+
+Pad to Pad
+---------------+---------------+---------+
+Source Pad     |Destination Pad|  Delay  |
+---------------+---------------+---------+
+ah<0>          |oe             |    8.104|
+ah<0>          |og             |    7.910|
+ah<0>          |ol             |    8.499|
+ah<1>          |oe             |    8.511|
+ah<1>          |og             |    8.317|
+ah<1>          |ol             |    8.742|
+ah<2>          |oe             |    7.924|
+ah<2>          |og             |    7.730|
+ah<2>          |ol             |    8.418|
+ah<3>          |oe             |    8.095|
+ah<3>          |og             |    7.901|
+ah<3>          |ol             |    7.677|
+al<0>          |oe             |    7.196|
+al<0>          |og             |    8.119|
+al<0>          |ol             |    7.751|
+al<1>          |oe             |    7.399|
+al<1>          |og             |    7.927|
+al<1>          |ol             |    7.503|
+al<2>          |oe             |    6.519|
+al<2>          |og             |    7.442|
+al<2>          |ol             |    7.923|
+al<3>          |oe             |    6.629|
+al<3>          |og             |    6.789|
+al<3>          |ol             |    6.509|
+bh<0>          |oe             |    8.155|
+bh<0>          |og             |    7.961|
+bh<0>          |ol             |    8.873|
+bh<1>          |oe             |    8.570|
+bh<1>          |og             |    8.376|
+bh<1>          |ol             |    8.384|
+bh<2>          |oe             |    8.171|
+bh<2>          |og             |    7.977|
+bh<2>          |ol             |    8.289|
+bh<3>          |oe             |    7.795|
+bh<3>          |og             |    7.601|
+bh<3>          |ol             |    7.700|
+bl<0>          |oe             |    7.540|
+bl<0>          |og             |    7.503|
+bl<0>          |ol             |    7.769|
+bl<1>          |oe             |    7.295|
+bl<1>          |og             |    7.751|
+bl<1>          |ol             |    7.907|
+bl<2>          |oe             |    6.804|
+bl<2>          |og             |    7.667|
+bl<2>          |ol             |    7.374|
+bl<3>          |oe             |    7.126|
+bl<3>          |og             |    6.513|
+bl<3>          |ol             |    6.730|
+---------------+---------------+---------+
+
+
+Analysis completed Thu Feb 07 07:45:24 2019 
+--------------------------------------------------------------------------------
+
+Trace Settings:
+-------------------------
+Trace Settings 
+
+Peak Memory Usage: 4998 MB
+
+
+

@@ -1,0 +1,5 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/ShashankShivv/EncoderDecoder/comparator.xst" -ofn "C:/Users/Student/Desktop/ShashankShivv/EncoderDecoder/comparator.syr" 
+ngdbuild -intstyle ise -dd _ngo -nt timestamp -i -p xc7a100t-csg324-1 comparator.ngc comparator.ngd  
+map -intstyle ise -p xc7a100t-csg324-1 -w -logic_opt off -ol high -t 1 -xt 0 -register_duplication off -r 4 -mt off -ir off -pr off -lc off -power off -o comparator_map.ncd comparator.ngd comparator.pcf 
+par -w -intstyle ise -ol high -mt off comparator_map.ncd comparator.ncd comparator.pcf 
+trce -intstyle ise -v 3 -s 1 -n 3 -fastpaths -xml comparator.twx comparator.ncd -o comparator.twr comparator.pcf 
