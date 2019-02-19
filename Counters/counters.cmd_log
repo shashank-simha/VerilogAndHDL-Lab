@@ -1,0 +1,2 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/ShashankShivv/Counters/counters.xst" -ofn "C:/Users/Student/Desktop/ShashankShivv/Counters/counters.syr" 
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/ShashankShivv/Counters/counters.xst" -ofn "C:/Users/Student/Desktop/ShashankShivv/Counters/counters.syr" 

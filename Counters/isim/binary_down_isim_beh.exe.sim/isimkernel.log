@@ -1,0 +1,28 @@
+Command line:
+   binary_down_isim_beh.exe
+     -simmode  gui
+     -simrunnum  0
+     -socket  60748
+
+Tue Feb 12 16:12:44 2019
+
+
+ Elaboration Time: 0.0625 sec
+
+ Current Memory Usage: 5335.59 Meg
+
+ Total Signals          : 14
+ Total Nets             : 18
+ Total Signal Drivers   : 6
+ Total Blocks           : 2
+ Total Primitive Blocks : 2
+ Total Processes        : 9
+ Total Traceable Variables  : 19
+ Total Scalar Nets and Variables : 102
+
+ Total Simulation Time: 0.078125 sec
+
+ Current Memory Usage: 5178.3 Meg
+
+Tue Feb 12 16:14:12 2019
+
