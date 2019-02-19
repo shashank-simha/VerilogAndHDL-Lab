@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "secureip" -o "C:/Users/Student/Desktop/ShashankShivv/arithmetic_op/half_adder_isim_beh.exe" -prj "C:/Users/Student/Desktop/ShashankShivv/arithmetic_op/half_adder_beh.prj" "work.half_adder" 
