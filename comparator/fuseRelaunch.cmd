@@ -1,0 +1,1 @@
+-intstyle "ise" -incremental -lib "unisims_ver" -lib "unimacro_ver" -lib "xilinxcorelib_ver" -lib "secureip" -o "C:/Users/Student/Desktop/ShashankShivv/comparator/comparotor_isim_beh.exe" -prj "C:/Users/Student/Desktop/ShashankShivv/comparator/comparotor_beh.prj" "work.comparotor" "work.glbl" 
