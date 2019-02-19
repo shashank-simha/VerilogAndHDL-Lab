@@ -1,0 +1,1 @@
+xst -intstyle ise -ifn "C:/Users/Student/Desktop/-p/SequenceGenerator/RingCounter.xst" -ofn "C:/Users/Student/Desktop/-p/SequenceGenerator/RingCounter.syr" 
