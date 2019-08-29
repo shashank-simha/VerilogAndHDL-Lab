@@ -1,0 +1,28 @@
+|RingJohnson
+clk => o[4]~reg0.CLK
+clk => o[3]~reg0.CLK
+clk => o[2]~reg0.CLK
+clk => o[1]~reg0.CLK
+clk => o[0]~reg0.CLK
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+s => o.OUTPUTSELECT
+reset => o[4]~reg0.ACLR
+reset => o[3]~reg0.ACLR
+reset => o[2]~reg0.ACLR
+reset => o[1]~reg0.ACLR
+reset => o[0]~reg0.ACLR
+i[4] => o.DATAB
+i[3] => o.DATAB
+i[2] => o.DATAB
+i[1] => o.DATAB
+i[0] => o.DATAB
+o[4] <= o[4]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[3] <= o[3]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[2] <= o[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[1] <= o[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+o[0] <= o[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,38 @@
+|evenodd
+b[0] => count.OUTPUTSELECT
+b[0] => count.OUTPUTSELECT
+b[0] => count.OUTPUTSELECT
+b[0] => count.OUTPUTSELECT
+b[0] => count[1].IN0
+b[1] => count.OUTPUTSELECT
+b[1] => count.OUTPUTSELECT
+b[1] => count.OUTPUTSELECT
+b[1] => count.OUTPUTSELECT
+b[1] => count[0].OUTPUTSELECT
+b[1] => count[1].OUTPUTSELECT
+b[1] => count[1].IN1
+b[1] => count[2].OUTPUTSELECT
+b[1] => count[3].OUTPUTSELECT
+b[2] => count.OUTPUTSELECT
+b[2] => count.OUTPUTSELECT
+b[2] => count.OUTPUTSELECT
+b[2] => count.OUTPUTSELECT
+b[2] => count[0].OUTPUTSELECT
+b[2] => count[1].OUTPUTSELECT
+b[2] => count[1].IN1
+b[2] => count[2].OUTPUTSELECT
+b[2] => count[3].OUTPUTSELECT
+b[3] => count[0].OUTPUTSELECT
+b[3] => count[1].OUTPUTSELECT
+b[3] => count[1].IN1
+b[3] => count[2].OUTPUTSELECT
+b[3] => count[3].OUTPUTSELECT
+c[0] <= <GND>
+c[1] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+c[2] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+c[3] <= <GND>
+c[4] <= <GND>
+c[5] <= <GND>
+c[6] <= count[0].DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,13 @@
+|sequencedetector
+reset => reg_fstate.s0.OUTPUTSELECT
+reset => reg_fstate.s1.OUTPUTSELECT
+reset => reg_fstate.s2.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+clock => fstate~1.DATAIN
+s => q.DATAB
+s => Selector0.IN1
+s => Selector2.IN0
+s => reg_fstate.s1.DATAA
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

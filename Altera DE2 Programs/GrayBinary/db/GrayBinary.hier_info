@@ -1,0 +1,10 @@
+|GrayBinary
+b[0] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[1] <= b.DB_MAX_OUTPUT_PORT_TYPE
+b[2] <= g[2].DB_MAX_OUTPUT_PORT_TYPE
+g[0] => b.IN1
+g[1] => b.IN0
+g[2] => b.IN1
+g[2] => b[2].DATAIN
+
+

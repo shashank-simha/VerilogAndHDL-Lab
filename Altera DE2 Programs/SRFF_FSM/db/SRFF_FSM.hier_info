@@ -1,0 +1,17 @@
+|SRFF_FSM
+reset => reg_fstate.s0.OUTPUTSELECT
+reset => reg_fstate.s1.OUTPUTSELECT
+reset => reg_fstate.s2.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+clock => fstate~1.DATAIN
+s => always1.IN0
+s => always1.IN0
+s => always1.IN0
+s => always1.IN0
+r => always1.IN1
+r => always1.IN1
+r => always1.IN1
+r => always1.IN1
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Tue Apr 16 17:02:42 2019
+Quartus II Version : 9.1 Build 222 10/21/2009 SJ Full Version
+Revision Name : sequencedetector
+Top-level Entity Name : sequencedetector
+Family : Cyclone II
+Total logic elements : 3
+    Total combinational functions : 3
+    Dedicated logic registers : 2
+Total registers : 2
+Total pins : 4
+Total virtual pins : 0
+Total memory bits : 0
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

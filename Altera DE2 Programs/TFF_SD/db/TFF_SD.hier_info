@@ -1,0 +1,13 @@
+|TFF_SD
+reset => reg_fstate.s0.OUTPUTSELECT
+reset => reg_fstate.s1.OUTPUTSELECT
+reset => reg_q.OUTPUTSELECT
+reset => q.OUTPUTSELECT
+clock => fstate~1.DATAIN
+t => reg_fstate.DATAA
+t => reg_fstate.DATAB
+t => reg_fstate.DATAB
+t => reg_fstate.DATAA
+q <= q.DB_MAX_OUTPUT_PORT_TYPE
+
+

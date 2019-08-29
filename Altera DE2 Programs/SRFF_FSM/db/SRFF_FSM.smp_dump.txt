@@ -1,0 +1,6 @@
+
+State Machine - |SRFF_FSM|fstate
+Name fstate.s0 fstate.s2 fstate.s1 
+fstate.s2 0 0 0 
+fstate.s1 0 1 1 
+fstate.s0 1 1 0 
